@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<transaction xmlns="http://www.w3schools.com" transactionName="MZICT001" application="MZIC" version="01" country="MX" language="ES">
+	<paramsIn>
+		<parameter order="1" name="name" mandatory="1" type="String" size="40"/>
+		<dto order="2" name="CostumerDTO" mandatory="1" package="com.bbva.mzic.dto.costumer.CostumerDTO" artifactId="MZICC005"/>
+		<parameter order="3" name="phone" mandatory="0" type="Long" size="10"/>
+		<parameter order="4" name="lastName" mandatory="0" type="String" size="40"/>
+		<parameter order="5" name="email" mandatory="0" type="String" size="40"/>
+	</paramsIn>
+	<paramsOut>
+		<dto order="1" name="LetterDTO" mandatory="1" package="com.bbva.mzic.dto.letter.LetterDTO" artifactId="MZICC006"/>
+		<parameter order="2" name="name" mandatory="1" type="String" size="50"/>
+		<parameter order="3" name="lastName" mandatory="1" type="String" size="50"/>
+		<parameter order="4" name="secuence" mandatory="1" type="Long" size="40"/>
+		<parameter order="5" name="phone" mandatory="0" type="Long" size="40"/>
+	</paramsOut>
+	<description>transaccion</description>
+</transaction>
